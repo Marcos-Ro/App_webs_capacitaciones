@@ -1,0 +1,132 @@
+.certificates{
+
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+
+}
+
+.certificates h1{
+
+    text-align:center;
+    margin-bottom:40px;
+    color:#222;
+
+}
+
+.certificado-card{
+
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    margin-bottom:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+
+}
+
+.certificado-card h2{
+
+    margin-bottom:10px;
+    color:#222;
+
+}
+
+.certificado-card p{
+
+    margin-bottom:20px;
+    color:#555;
+
+}
+
+.certificado-card button{
+
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#1976d2;
+    color:white;
+
+}
+
+.certificado-card button:hover{
+
+    background:#1565c0;
+
+}
+
+.volver{
+
+    margin-top:30px;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#555;
+    color:white;
+    cursor:pointer;
+
+}
+
+.volver:hover{
+
+    background:#444;
+
+}
+
+.dark{
+
+    background:#121212;
+    color:white;
+
+}
+
+.dark .certificates{
+
+    color:white;
+
+}
+
+.dark .certificates h1{
+
+    color:white;
+
+}
+
+.dark .certificado-card{
+
+    background:#1f1f1f;
+    color:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.5);
+
+}
+
+.dark .certificado-card h2{
+
+    color:white;
+
+}
+
+.dark .certificado-card p{
+
+    color:#d6d6d6;
+
+}
+
+.dark .certificado-card button{
+
+    color:white;
+
+}
+
+.dark .volver{
+
+    background:#3b3b3b;
+    color:white;
+
+}
+
+.dark .volver:hover{
+
+    background:#4b4b4b;
+
+}

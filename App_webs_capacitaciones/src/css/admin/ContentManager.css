@@ -1,0 +1,103 @@
+.contentManager{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:40px;
+
+}
+
+.formulario{
+
+    display:grid;
+
+    gap:15px;
+
+    margin:30px 0;
+
+}
+
+.formulario input,
+.formulario textarea{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+.formulario textarea{
+
+    resize:none;
+
+    height:180px;
+
+}
+
+.formulario button{
+
+    padding:15px;
+
+    background:#1976d2;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.niveles{
+
+    display:grid;
+
+    gap:20px;
+
+}
+
+.nivel{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+
+}
+.accionesNivel{
+
+    margin-top:20px;
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.accionesNivel button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+    background:#1976d2;
+
+    color:white;
+
+}

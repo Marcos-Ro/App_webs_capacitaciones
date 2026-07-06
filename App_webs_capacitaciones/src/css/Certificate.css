@@ -1,0 +1,210 @@
+.certificate-page{
+
+    min-height:100vh;
+    background:#f2f5f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    transition:.3s;
+
+}
+
+.certificate{
+
+    width:900px;
+    max-width:100%;
+    background:white;
+    padding:50px;
+    border:8px solid #d4af37;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+
+}
+
+.certificate h1{
+
+    font-size:48px;
+    color:#1d3557;
+    margin-bottom:30px;
+    letter-spacing:2px;
+
+}
+
+.certificate h2{
+
+    font-size:40px;
+    margin:20px 0;
+    color:#111827;
+
+}
+
+.certificate h3{
+
+    font-size:30px;
+    margin:20px 0;
+    color:#2563eb;
+
+}
+
+.certificate p{
+
+    font-size:20px;
+    margin:12px 0;
+    color:#444;
+
+}
+
+.certificate strong{
+
+    display:block;
+    margin-top:10px;
+    font-size:22px;
+    color:#222;
+
+}
+
+.medalla{
+
+    margin:35px 0;
+
+}
+
+.medalla img{
+
+    width:140px;
+    height:auto;
+
+}
+
+.botones{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:40px;
+
+}
+
+.botones button{
+
+    padding:14px 28px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.botones button:hover{
+
+    background:#1d4ed8;
+    transform:translateY(-2px);
+
+}
+
+.dark{
+
+    background:#121212;
+    color:white;
+
+}
+
+.dark .certificate-page{
+
+    background:#121212;
+
+}
+
+.dark .certificate{
+
+    background:#1f1f1f;
+    color:white;
+    box-shadow:0 8px 25px rgba(0,0,0,.6);
+
+}
+
+.dark .certificate h1{
+
+    color:#ffffff;
+
+}
+
+.dark .certificate h2{
+
+    color:#ffffff;
+
+}
+
+.dark .certificate h3{
+
+    color:#4ea5ff;
+
+}
+
+.dark .certificate p{
+
+    color:#d6d6d6;
+
+}
+
+.dark .certificate strong{
+
+    color:#ffffff;
+
+}
+
+.dark .botones button{
+
+    color:white;
+
+}
+
+@media print{
+
+    body{
+
+        background:white !important;
+
+    }
+
+    .certificate-page{
+
+        background:white !important;
+        padding:0;
+
+    }
+
+    .certificate{
+
+        background:white !important;
+        color:black !important;
+        width:100%;
+        border:8px solid #d4af37;
+        box-shadow:none;
+        margin:0;
+
+    }
+
+    .certificate h1,
+    .certificate h2,
+    .certificate h3,
+    .certificate p,
+    .certificate strong{
+
+        color:black !important;
+
+    }
+
+    .botones{
+
+        display:none;
+
+    }
+
+}

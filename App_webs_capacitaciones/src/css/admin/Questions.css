@@ -1,0 +1,79 @@
+.questions{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding:40px;
+
+}
+
+.formulario{
+
+    display:grid;
+
+    gap:15px;
+
+    margin:30px 0;
+
+}
+
+.formulario input,
+.formulario select{
+
+    padding:12px;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+
+}
+
+.formulario button{
+
+    padding:15px;
+
+    background:#1976d2;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+}
+
+.pregunta{
+
+    background:white;
+
+    margin:15px 0;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+
+}
+.pregunta button{
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    background:#d32f2f;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}

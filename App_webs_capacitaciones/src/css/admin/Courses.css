@@ -1,0 +1,115 @@
+.courses{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:40px;
+
+}
+
+.formulario{
+
+    display:grid;
+
+    gap:15px;
+
+    margin-bottom:40px;
+
+}
+
+.formulario input,
+.formulario textarea{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+.formulario textarea{
+
+    resize:none;
+
+    height:120px;
+
+}
+
+.formulario button{
+
+    padding:15px;
+
+    border:none;
+
+    background:#1976d2;
+
+    color:white;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+}
+
+.listaCursos{
+
+    display:grid;
+
+    gap:20px;
+
+}
+
+.curso{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+
+}
+
+.eliminar{
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    border:none;
+
+    background:#d32f2f;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+.contenido{
+
+    margin-top:15px;
+
+    margin-right:10px;
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:#1976d2;
+
+    color:white;
+
+}
